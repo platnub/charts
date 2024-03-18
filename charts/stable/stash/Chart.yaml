@@ -7,10 +7,10 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 0.25.0
+appVersion: 0.25.1
 dependencies:
   - name: common
-    version: 20.0.9
+    version: 20.2.2
     repository: oci://tccr.io/truecharts
     condition: ""
     alias: ""
@@ -33,4 +33,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/stash
   - https://hub.docker.com/r/stashapp/stash
 type: application
-version: 15.6.2
+version: 15.8.1
